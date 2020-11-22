@@ -6,4 +6,4 @@ def create_dataframe():
     result=pd.DataFrame({'Odd': odd, 'Even': even,'Sum': odd+even})
     #write to result.csv
     #return the dataframe
-    return result
+    return result.head(10)
